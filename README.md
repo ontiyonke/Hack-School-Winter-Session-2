@@ -37,24 +37,31 @@ The goal is to scramble the input text into a "encrpyted" output text. There wil
 
 #####Encryption 1
 Implement a substitution cipher (https://en.wikipedia.org/wiki/Substitution_cipher)
-Optional Substitutional Cipher, but you can use your own.
-plain text: ABCDEFGHIJKLMNOPQRSTUVWXYZ
-cipher text: ZEBRASCDFGHIJKLMNOPQTUVWXY
-example: "flee at once. we are discovered!" transforms into "SIAA ZQ LKBA. VA ZOA RFPBLUAOAR!"
+* Example:
+* plain text: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+* cipher text: ZEBRASCDFGHIJKLMNOPQTUVWXY
+* "flee at once. we are discovered!" transforms into "SIAA ZQ LKBA. VA ZOA RFPBLUAOAR!"
 
 #####Encryption 2
 Implement a polyalphabetic cipher (https://en.wikipedia.org/wiki/Polyalphabetic_cipher)
 This is similar to substitution but using multiple substitution alphabets
-plain text: ABCDEFGHIJKLMNOPQRSTUVWXYZ
-even letter cipher text: ZEBRASCDFGHIJKLMNOPQTUVWXY
-odd letter cipher text: CDFGHIJKLMNOPQTUVWXYZEBRAS
-example: "test" transforms into "yaxo"
+* Example:
+* plain text: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+* even letter cipher text: ZEBRASCDFGHIJKLMNOPQTUVWXY
+* odd letter cipher text: CDFGHIJKLMNOPQTUVWXYZEBRAS
+* "test" transforms into "yaxo"
 
 #####Encryption 3
 Implement your own encryption
-This doesn't have to be complicated, but for those who are interested in security
-and want try something more advanced you could try creating AES encryption (https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
-which is the standard worldwide. You can also take a look at some of java and android's built-in encryption libraries for more ideas here is a link to the android developer docs: https://developer.android.com/reference/javax/crypto/package-summary.html
+This doesn't have to be complicated, but for those who are interested in security, and want try something more advanced you could try creating AES encryption (https://en.wikipedia.org/wiki/Advanced_Encryption_Standard), which is the standard worldwide. You can also take a look at some of java and android's built-in encryption libraries for more ideas here is a link to the android developer docs: https://developer.android.com/reference/javax/crypto/package-summary.html
+
+
+###Hints
+* Start with the xml layout. 
+* Add ID’s for UI objects that you want to interact with in the code.
+* Set up ui components in the code
+* Implement swap button 
+* Work on each of the encryption methods, one at a time.
 
 ###End Product Goal
 ![T3XT SCR4MBL3R](https://s3-us-west-1.amazonaws.com/acm-hack-ghost/2017/01/text_scrambler_bg_nexus5x-portrait--2-.png)
