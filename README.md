@@ -33,7 +33,28 @@ The project is for intermediate/advanced students. If you are feeling confident 
 complete the project without the skeleton, but it will be a lot easier to use it. We will be uploading the project solution later on, so if you haven't cracked it by then look at the solution to learn the correct implementation.
 
 ###Instructions
-The goal is to scramble the input text into a "encrpyted" output text. There will be three encrypt and three decrypt methods for you to implement.
+The goal is to scramble the input text into a "encrpyted" output text. There will be three encrypt and three decrypt methods for you to implement, and the primary purpose of this is to get more familiar with the java language so try using varied syntax for each of the encryptions. Additionally there is a swap button at the top that should switch between the encrypt and decrypt mode. The implementation is pretty flexible, so we will grade simply based on functionality so don't worry too much about following a particular structure.
+
+#####Encryption 1
+Implement a substitution cipher (https://en.wikipedia.org/wiki/Substitution_cipher)
+Optional Substitutional Cipher, but you can use your own.
+plain text: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+cipher text: ZEBRASCDFGHIJKLMNOPQTUVWXY
+example: "flee at once. we are discovered!" transforms into "SIAA ZQ LKBA. VA ZOA RFPBLUAOAR!"
+
+#####Encryption 2
+Implement a polyalphabetic cipher (https://en.wikipedia.org/wiki/Polyalphabetic_cipher)
+This is similar to substitution but using multiple substitution alphabets
+plain text: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+even letter cipher text: ZEBRASCDFGHIJKLMNOPQTUVWXY
+odd letter cipher text: CDFGHIJKLMNOPQTUVWXYZEBRAS
+example: "test" transforms into "yaxo"
+
+#####Encryption 3
+Implement your own encryption
+This doesn't have to be complicated, but for those who are interested in security
+and want try something more advanced you could try creating AES encryption (https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
+which is the standard worldwide. You can also take a look at some of java and android's built-in encryption libraries for more ideas here is a link to the android developer docs: https://developer.android.com/reference/javax/crypto/package-summary.html
 
 ###End Product Goal
 ![T3XT SCR4MBL3R](https://s3-us-west-1.amazonaws.com/acm-hack-ghost/2017/01/text_scrambler_bg_nexus5x-portrait--2-.png)
