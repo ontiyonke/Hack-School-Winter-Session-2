@@ -33,7 +33,7 @@ The project is for intermediate/advanced students. If you are feeling confident 
 complete the project without the skeleton, but it will be a lot easier to use it. We will be uploading the project solution later on, so if you haven't cracked it by then look at the solution to learn the correct implementation.
 
 ###Instructions
-
+The goal is to scramble the input text into a "encrpyted" output text. There will be three encrypt and three decrypt methods for you to implement.
 
 ###End Product Goal
-![T3XT SCR4MBL3R](https://s3-us-west-1.amazonaws.com/acm-hack-ghost/2017/01/hack-school-winter-project1.png)
+![T3XT SCR4MBL3R](https://s3-us-west-1.amazonaws.com/acm-hack-ghost/2017/01/text_scrambler_bg_nexus5x-portrait--2-.png)
